@@ -7,3 +7,11 @@ word2 = 'paragraph'
 
 x = ngram(word1.chars, 2).sort.uniq
 y = ngram(word2.chars, 2).sort.uniq
+
+# 和集合, 積集合， 差集合
+x | y
+x & y
+x - y
+
+x.map(&:join).include?('se')
+y.map(&:join).include?('se')
