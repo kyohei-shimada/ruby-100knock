@@ -1,4 +1,4 @@
-# ruby q12.rb < ../data/hightemp.txt
+# ruby q18.rb < ../../data/hightemp.txt
 require 'csv'
 
 table = CSV.new($stdin, col_sep: "\t").read

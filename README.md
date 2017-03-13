@@ -2,7 +2,7 @@
 
 [言語処理100本ノック](http://www.cl.ecei.tohoku.ac.jp/nlp100/)をRubyで解答したもの
 
-questions/ 以下に 問題番号.rb に解答があります
+questions/chapterX/qYY.rb (Xは章番号，YYは問題番号)に解答があります
 
 # 問題00〜09
 
